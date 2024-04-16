@@ -2,9 +2,9 @@ import sys
 import math
 
 def facto (**fact_):
-    factorial = math.factorial(fact_)
-    return factorial
+    return math.factorial(fact_)
 
-factori = facto(sys.argv.append([]))
+factori = facto(sys.argv[1])
 
-print(f'El faltorial de numero es {facto()}')
+
+print(f'El faltorial de numero es {factori}')
